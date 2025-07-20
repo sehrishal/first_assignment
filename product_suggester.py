@@ -1,7 +1,5 @@
- # File: product_suggester.py
-
 def suggest_product(user_input):
-    # Basic keyword-based logic
+   
     user_input = user_input.lower()
 
     if "headache" in user_input:
@@ -30,7 +28,6 @@ def suggest_product(user_input):
             "reason": "Sorry, I couldn't identify the issue. Please describe your need more clearly."
         }
 
-# Interaction loop
 if __name__ == "__main__":
     user_input = input("👤 Describe your need: ")
     suggestion = suggest_product(user_input)
